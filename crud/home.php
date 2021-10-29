@@ -1,6 +1,5 @@
 <?php
-    session_start();
-    include('autenticacao.php');    
+    session_start();   
 ?>
 
 <head>
@@ -19,5 +18,5 @@
     <p>Ana Laura Alves</p>
     <p>Bruno Gabriel Gomide</p>
     <p>Nelson José Dias Mello</p>
-    <p>Werner</p>
+    <p>Werner Morais</p>
 </div>
