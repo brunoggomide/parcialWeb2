@@ -1,10 +1,10 @@
 <?php
-session_start();
-include('autenticacao.php');    
+    session_start();
+    include('autenticacao.php');    
 ?>
 
 <head>
-<link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/home.css">
 </head>
 
 <h1>Olá, <?php echo $_SESSION['user'];?>!</h1>

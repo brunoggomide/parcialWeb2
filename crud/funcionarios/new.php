@@ -17,12 +17,8 @@
           $salario_funcionario = $_POST['salario_funcionario'];
 
           $sql = "insert into cadastros (funcionario_id, nome_funcionario, contato_funcionario, funcao_funcionario, salario_funcionario) values ('$funcionario_id', '$nome_funcionario', '$contato_funcionario', '$funcao_funcionario', '$salario_funcionario')";
-          if($conn->query($sql) === TRUE ){
-            // header('Location: new.php');
-            // exit();
-          }
-          else {
-              echo "Falha: ".$sql."\n".$conn->error;
+          if($conn->query($sql) === FALSE ){
+            echo "Falha: ".$sql."\n".$conn->error;
           }
         }
     }
