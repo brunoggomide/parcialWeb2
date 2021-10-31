@@ -15,8 +15,5 @@
 <br>
 <br>
 <div class="alunos"> 
-    <p>Ana Laura Alves</p>
     <p>Bruno Gabriel Gomide</p>
-    <p>Nelson José Dias Mello</p>
-    <p>Werner Morais</p>
 </div>
