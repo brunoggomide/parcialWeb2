@@ -31,28 +31,34 @@
 </script>
 
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-    <h1 class="h2">Novo Funcionário</h1>
+    <h1 class="h2">Novo Paciente</h1>
 </div>
-<form method="post" action="" onsubmit="alerta()">
-  <div class="mb-3">
-    <label for="funcionario_id" class="form-label">Id</label>
-    <input type="text" class="form-control" id="funcionario_id" name="funcionario_id">
+<form class="body row" method="post" action="" onsubmit="alerta()">
+  <div class="col-md-12 mb-3">
+    <label class="form-label"><b>Dados do Exame</b></label>
   </div>
-  <div class="mb-3">
-    <label for="nome_funcionario" class="form-label">Nome</label>
-    <input type="text" class="form-control" id="nome_funcionario" name="nome_funcionario">
+  <div class="col-md-10 mb-3">
+    <label for="" class="form-label">Nome do paciente</label>
+    <input type="text" class="form-control" id="" name="">
   </div>
-  <div class="mb-3">
-    <label for="contato_funcionario" class="form-label">Contato</label>
-    <input type="text" class="form-control" id="contato_funcionario" name="contato_funcionario">
+  <div class="col-md-2 mb-3">
+    <label for="" class="form-label">Data do exame</label>
+    <input type="date" class="form-control" id="" name="">
   </div>
-  <div class="mb-3">
-    <label for="funcao_funcionario" class="form-label">Função</label>
-    <input type="text" class="form-control" id="funcao_funcionario" name="funcao_funcionario">
+  <div class="col-md-1 mb-5">
+    <label for="" class="form-label">Glicemia</label>
+    <input type="text" class="form-control" id="" name="">
   </div>
-  <div class="mb-3">
-    <label for="salario_funcionario" class="form-label">Salário</label>
-    <input type="text" class="form-control" id="salario_funcionario" name="salario_funcionario">
+  <div class="col-md-1 mb-5">
+    <label for="" class="form-label">Colesterol</label>
+    <input type="text" class="form-control" id="" name="">
   </div>
-  <button type="submit" class="btn btn-primary">Cadastrar</button>
+  <div class="col-md-2 mb-5">
+    <label for="" class="form-label">Pressão arterial</label>
+    <input type="text" class="form-control" id="" name="">
+  </div>
+  <div class="col-md-8 mb-5"></div>
+  <div class="col-md-3 mb-3">
+    <button type="submit" class="btn btn-primary">Salvar</button>
+  </div>
 </form>

@@ -10,10 +10,13 @@
 <br>
 <br>
 <br>
-<h3>Apresentação da avaliação parcial de web - 2!</h3>
+<h3>Apresentação do Projeto Integrador!</h3>
 <br>
 <br>
 <br>
 <div class="alunos"> 
+    <p>Ana Laura Alves</p>
     <p>Bruno Gabriel Gomide</p>
+    <p>Nelson José Dias Mello</p>
+    <p>Werner</p>
 </div>

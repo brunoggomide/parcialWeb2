@@ -7,9 +7,15 @@
             </a>
         </li>
         <li class="nav-item">
-            <a id="btn-func" class="nav-link" href="?p=funcionarios/index">
+            <a id="btn-func" class="nav-link" href="?p=pacientes/index">
             <span data-feather="users"></span>
-            Funcionários
+                Pacientes
+            </a>
+        </li>
+        <li class="nav-item">
+            <a id="btn-func" class="nav-link" href="?p=exames/index">
+            <span data-feather="activity"></span>
+                Exames
             </a>
         </li>
     </ul>
