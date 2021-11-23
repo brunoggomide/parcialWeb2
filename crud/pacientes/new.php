@@ -43,11 +43,11 @@
   </div>
   <div class="col-md-2 mb-3">
     <label for="" class="form-label">Data de nascimento</label>
-    <input type="date" class="form-control" id="" name="">
+    <input type="date" required="" class="form-control" id="" name="">
   </div>
   <div class="col-md-2 mb-3">
     <label for="" class="form-label">Sexo</label>
-    <input type="text" class="form-control" list="sexo" id="" name="">
+    <input type="text" required="" class="form-control" list="sexo" id="" name="">
     <datalist id="sexo">
       <option value="Feminino">
       <option value="Masculino">
@@ -55,11 +55,11 @@
   </div>
   <div class="col-md-7 mb-3">
     <label for="" class="form-label">Endereço</label>
-    <input type="text" class="form-control" id="" name="">
+    <input type="text" required="" class="form-control" id="" name="">
   </div>
   <div class="col-md-1 mb-3">
     <label for="" class="form-label">Numero</label>
-    <input type="text" class="form-control" id="" name="">
+    <input type="text" required="" class="form-control" id="" name="">
   </div>
   <div class="col-md-4 mb-3">
     <label for="" class="form-label">Complemento</label>
@@ -67,19 +67,19 @@
   </div>
   <div class="col-md-4 mb-3">
     <label for="" class="form-label">Bairro</label>
-    <input type="text" class="form-control" id="" name="">
+    <input type="text" required="" class="form-control" id="" name="">
   </div>
   <div class="col-md-4 mb-3">
     <label for="" class="form-label">Cidade</label>
-    <input type="text" class="form-control" id="" name="">
+    <input type="text" required="" class="form-control" id="" name="">
   </div>
   <div class="col-md-4 mb-3">
     <label for="" class="form-label">CEP</label>
-    <input type="text" class="form-control" id="" name="">
+    <input type="text" required="" class="form-control" id="" name="">
   </div>
   <div class="col-md-4 mb-5">
     <label for="" class="form-label">e-mail</label>
-    <input type="email" class="form-control" id="" name="">
+    <input type="email" required="" class="form-control" id="" name="">
   </div>
   <div class="col-md-4 mb-5">
     <label for="" class="form-label">Celular</label>
@@ -143,5 +143,6 @@
   <div class="col-md-8 mb-5"></div>
   <div class="col-md-3 mb-3">
     <button type="submit" class="btn btn-primary">Salvar</button>
+    <button type="submit" class="btn btn-secondary">Voltar</button>
   </div>
 </form>

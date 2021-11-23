@@ -54,7 +54,10 @@ session_start();
                             <td>".$row['funcionario_id']."</td>
                             <td>".$row['nome_funcionario']."</td>
                             <td class='text-right'>
+                                <button type='submit' color='grey' title='Visualizar' data-feather='eye'></button>
+                                ⠀⠀
                                 <button type='submit' color='blue' title='Editar' data-feather='edit'></button>
+                                ⠀⠀
                                 <button type='delete' color='red' title='Remover' data-feather='trash'></button>
                             </td>
                         </tr>";

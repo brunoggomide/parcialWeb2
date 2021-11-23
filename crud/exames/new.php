@@ -39,26 +39,27 @@
   </div>
   <div class="col-md-10 mb-3">
     <label for="" class="form-label">Nome do paciente</label>
-    <input type="text" class="form-control" id="" name="">
+    <input type="text" required="" class="form-control" id="" name="">
   </div>
   <div class="col-md-2 mb-3">
     <label for="" class="form-label">Data do exame</label>
-    <input type="date" class="form-control" id="" name="">
+    <input type="date" required="" class="form-control" id="" name="">
   </div>
   <div class="col-md-1 mb-5">
     <label for="" class="form-label">Glicemia</label>
-    <input type="text" class="form-control" id="" name="">
+    <input type="text" required="" class="form-control" id="" name="">
   </div>
   <div class="col-md-1 mb-5">
     <label for="" class="form-label">Colesterol</label>
-    <input type="text" class="form-control" id="" name="">
+    <input type="text" required="" class="form-control" id="" name="">
   </div>
   <div class="col-md-2 mb-5">
     <label for="" class="form-label">Pressão arterial</label>
-    <input type="text" class="form-control" id="" name="">
+    <input type="text" required="" class="form-control" id="" name="">
   </div>
   <div class="col-md-8 mb-5"></div>
   <div class="col-md-3 mb-3">
     <button type="submit" class="btn btn-primary">Salvar</button>
+    <button type="submit" class="btn btn-secondary">Voltar</button>
   </div>
 </form>
