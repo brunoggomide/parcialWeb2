@@ -18,5 +18,11 @@
                 Exames
             </a>
         </li>
+        <li class="nav-item">
+            <a id="btn-func" class="nav-link" href="?p=usuarios/index">
+            <span data-feather="user"></span>
+                Usuários
+            </a>
+        </li>
     </ul>
 </div>
